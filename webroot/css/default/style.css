@@ -1,5 +1,22 @@
-.logo {
-  width: 100px;
+nav .container-fluid {
+  background: #f0f0f0;
+}
+nav .container-fluid .navbar-header button {
+  background: gainsboro;
+}
+nav .container-fluid .navbar-header button span {
+  background: #646464;
+}
+nav .container-fluid .row .col-xs-12 .logo {
+  display: block;
+  width: 20%;
+  margin: 10px auto 10px auto;
+}
+nav .container-fluid .row .col-xs-6 {
+  padding: 2%;
+}
+nav .container-fluid .row .col-xs-6 .nav-links {
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

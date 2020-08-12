@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <?= $this->element('default/header'); ?>
+    <?= $this->element('default/head'); ?>
 </head>
 <body>
     <?= $this->element('default/nav'); ?>

@@ -4,7 +4,7 @@
 <?= $this->Html->meta('viewport', 'width=device-width, initial-scale=1'); ?>
 <title><?= $title ?></title>
 <?= $this->Html->meta('icon'); ?>
+<?= $this->Html->css('bootstrap.css'); ?>
 <?= $this->Html->css('default/style.css'); ?>
-<?= $this->fetch('meta'); ?>
-<?= $this->fetch('css'); ?>
-<?= $this->fetch('script'); ?>
+<?= $this->Html->script('jquery.js'); ?>
+<?= $this->Html->script('bootstrap.js'); ?>
