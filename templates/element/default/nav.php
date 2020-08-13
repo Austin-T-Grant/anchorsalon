@@ -1,10 +1,12 @@
 <nav class="navbar">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-3"></div>
+            <div class="col-xs-6">
                 <a href="<?= $this->Url->build('/') ?>"><?= $this->Html->image('anchor-salon-logo.png', ['alt' => 'Anchor Salon Logo', 'class'=>'logo']); ?></a>
                 <?php if($username){ echo 'Welcome '.$username; } ?>
             </div>
+            <div class="col-xs-3"></div>
         </div>
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">

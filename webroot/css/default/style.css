@@ -1,22 +1,82 @@
 nav .container-fluid {
   background: #f0f0f0;
 }
+nav .container-fluid .row .col-xs-6 {
+  margin-bottom: -50px;
+}
+nav .container-fluid .row .col-xs-6 .logo {
+  display: block;
+  width: 40%;
+  margin: 10px auto 20px auto;
+}
 nav .container-fluid .navbar-header button {
   background: gainsboro;
 }
 nav .container-fluid .navbar-header button span {
   background: #646464;
 }
-nav .container-fluid .row .col-xs-12 .logo {
-  display: block;
-  width: 20%;
-  margin: 10px auto 10px auto;
+nav .container-fluid .navbar-collapse {
+  padding: 0px 2% 0px 2%;
 }
-nav .container-fluid .row .col-xs-6 {
-  padding: 2%;
+nav .container-fluid .navbar-collapse .nav .nav-item .nav-links {
+  color: #646464;
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
 }
-nav .container-fluid .row .col-xs-6 .nav-links {
+nav .container-fluid .navbar-collapse .nav .nav-item .nav-links:hover {
+  background: #646464;
+  color: #e1c8ff;
+}
+
+.main .container-fluid {
+  margin-top: -21px;
+  background: gainsboro;
+}
+
+footer .container-fluid {
+  background: #bedcff;
+}
+footer .container-fluid .row {
   padding: 20px;
+}
+footer .container-fluid .row .col-xs-8 {
+  color: #646464;
+}
+footer .container-fluid .row .col-xs-4 {
+  padding: 5px;
+  border-radius: 20px;
+  background: #f0f0f0;
+}
+footer .container-fluid .row .col-xs-4 .col-xs-6 {
+  padding: 0px;
+  padding-bottom: 10px;
+}
+footer .container-fluid .row .col-xs-4 .col-xs-6 ul {
+  margin: 0px;
+  padding: 0px;
+}
+footer .container-fluid .row .col-xs-4 .col-xs-6 ul li {
+  list-style: none;
+}
+footer .container-fluid .row .col-xs-4 .col-xs-6 ul li h5 {
+  padding: 5px 20px 0px 20px;
+}
+footer .container-fluid .row .col-xs-4 .col-xs-6 ul li .nav-links {
+  border-radius: 10px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  color: #646464;
+}
+footer .container-fluid .row .col-xs-4 .col-xs-6 ul li .nav-links:hover {
+  background: #aaaaaa;
+  color: #bedcff;
+}
+footer .container-fluid .copy {
+  padding: 0px;
+}
+footer .container-fluid .copy .col-xs-12 {
+  color: #646464;
 }
 
 /*# sourceMappingURL=style.css.map */

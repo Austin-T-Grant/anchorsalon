@@ -1,6 +1,7 @@
 <?php
 
 ?>
+<!-- Black, Purple, Grey, Babyblue, Turquoise -->
 <!DOCTYPE html>
 <html>
 <head>
