@@ -1,5 +1,5 @@
 <main class="main">
-    <div class="container-fluid">
+    <div class="container">
         <?= $this->Flash->render() ?>
         <?= $this->fetch('content') ?>
     </div>
